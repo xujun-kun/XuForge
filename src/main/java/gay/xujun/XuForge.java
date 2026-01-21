@@ -10,6 +10,10 @@ public class XuForge implements ModInitializer {
 
     @Override
     public void onInitialize() {
+        ModArmorMaterials.TRAVELER.value();
+
         ModItem.registerModItems();
+
+        LOGGER.info("XuForge Initialized!");
     }
 }

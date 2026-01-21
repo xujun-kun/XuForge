@@ -1,22 +1,22 @@
-package gay.xujun.item;
+package gay.xujun.items;
 
+import gay.xujun.ModArmorMaterials;
 import net.minecraft.item.ArmorItem;
-import net.minecraft.item.ArmorMaterials;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
 import java.util.List;
 
-public class TravelersGoggles extends ArmorItem {
+public class TravelersVest extends ArmorItem {
 
-    public TravelersGoggles() {
-        super(ArmorMaterials.IRON, Type.HELMET, new Settings().maxCount(1));
+    public TravelersVest() {
+        super(ModArmorMaterials.TRAVELER, Type.CHESTPLATE, new Settings().maxCount(1));
     }
 
     @Override
     public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
-        tooltip.add(Text.translatable("item.xuforge.travelers_goggles.tooltip").formatted(Formatting.YELLOW));
+        tooltip.add(Text.translatable("item.xuforge.travelers_vest.tooltip").formatted(Formatting.YELLOW));
         super.appendTooltip(stack, context, tooltip, type);
     }
 }

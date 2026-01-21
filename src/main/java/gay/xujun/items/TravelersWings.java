@@ -1,7 +1,7 @@
-package gay.xujun.item;
+package gay.xujun.items;
 
+import gay.xujun.ModArmorMaterials;
 import net.minecraft.item.ArmorItem;
-import net.minecraft.item.ArmorMaterials;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.text.Text;
@@ -11,7 +11,7 @@ import java.util.List;
 public class TravelersWings extends ArmorItem {
 
     public TravelersWings() {
-        super(ArmorMaterials.IRON, Type.LEGGINGS, new Settings().maxCount(1));
+        super(ModArmorMaterials.TRAVELER, Type.LEGGINGS, new Settings().maxCount(1));
     }
 
     @Override

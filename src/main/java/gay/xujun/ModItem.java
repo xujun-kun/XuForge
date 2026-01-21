@@ -1,9 +1,9 @@
 package gay.xujun;
 
-import gay.xujun.item.TravelersBoots;
-import gay.xujun.item.TravelersGoggles;
-import gay.xujun.item.TravelersVest;
-import gay.xujun.item.TravelersWings;
+import gay.xujun.items.TravelersBoots;
+import gay.xujun.items.TravelersGoggles;
+import gay.xujun.items.TravelersVest;
+import gay.xujun.items.TravelersWings;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -19,6 +19,7 @@ public class ModItem {
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(XuForge.MOD_ID, name), item);
     }
+
 
     public static void registerModItems() {
         XuForge.LOGGER.info("Registering Mod Items for " + XuForge.MOD_ID);
