@@ -1,6 +1,6 @@
 # XuForge - Traveler's Armor Set
 
-A Minecraft Mod for 1.21.1 (Fabric) that revives the legendary Traveler's Gear from Tinkers' Construct 1 (MC 1.7.10).
+A Minecraft Mod for 1.21.1 (Fabric) that revives the Traveler's Gear from Tinkers' Construct 1 (MC 1.7.10).
 
 ## Features
 
