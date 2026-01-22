@@ -98,26 +98,26 @@ publishing {
         // retrieving dependencies.
     }
 }
-repositories {
-    // The Maven with the mods source
-    maven {url 'https://maven.azuredoom.com/mods'}
-}
-
-repositories {
-    maven {
-        name = "AzureDoom Mods"
-        url = "https://maven.azuredoom.com/mods"
-    }
-}
-
-dependencies {
-// 1. AzureLib
-    def azurelib_version = "3.1.3"
-    modImplementation "mod.azure.azurelib:azurelib-fabric-1.21.1:${azurelib_version}"
-    modClientImplementation "mod.azure.azurelib:azurelib-fabric-1.21.1:${azurelib_version}"
-
-    // 2. AzureLib Armor
-    def armor_version = "3.1.2"
-    modImplementation "mod.azure.azurelibarmor:azurelibarmor-fabric-1.21.1:${armor_version}"
-    modClientImplementation "mod.azure.azurelibarmor:azurelibarmor-fabric-1.21.1:${armor_version}"
-}
+//repositories {
+//    // The Maven with the mods source
+//    maven {url 'https://maven.azuredoom.com/mods'}
+//}
+//
+//repositories {
+//    maven {
+//        name = "AzureDoom Mods"
+//        url = "https://maven.azuredoom.com/mods"
+//    }
+//}
+//
+//dependencies {
+//// 1. AzureLib
+//    def azurelib_version = "3.1.3"
+//    modImplementation "mod.azure.azurelib:azurelib-fabric-1.21.1:${azurelib_version}"
+//    modClientImplementation "mod.azure.azurelib:azurelib-fabric-1.21.1:${azurelib_version}"
+//
+//    // 2. AzureLib Armor
+//    def armor_version = "3.1.2"
+//    modImplementation "mod.azure.azurelibarmor:azurelibarmor-fabric-1.21.1:${armor_version}"
+//    modClientImplementation "mod.azure.azurelibarmor:azurelibarmor-fabric-1.21.1:${armor_version}"
+//}

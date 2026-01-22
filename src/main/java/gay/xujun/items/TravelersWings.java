@@ -43,7 +43,7 @@ public class TravelersWings extends ArmorItem {
     @Override
     public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
         tooltip.add(Text.translatable("item.xuforge.travelers_wings.tooltip").formatted(Formatting.YELLOW));
-        tooltip.add(Text.literal("装備時: ジャンプ力が大幅に上昇する").formatted(Formatting.AQUA));
+        tooltip.add(Text.translatable("item.xuforge.travelers_wings.tooltip2").formatted(Formatting.AQUA));
         super.appendTooltip(stack, context, tooltip, type);
     }
 }

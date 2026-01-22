@@ -2,6 +2,7 @@ package gay.xujun.items;
 
 import gay.xujun.ModArmorMaterials;
 import net.minecraft.item.ArmorItem;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.text.Text;
@@ -17,6 +18,7 @@ public class TravelersGoggles extends ArmorItem {
     @Override
     public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
         tooltip.add(Text.translatable("item.xuforge.travelers_goggles.tooltip").formatted(Formatting.YELLOW));
+        tooltip.add(Text.translatable("item.xuforge.travelers_goggles.tooltip2").formatted(Formatting.AQUA));
         super.appendTooltip(stack, context, tooltip, type);
     }
 }

@@ -44,7 +44,7 @@ public class TravelersVest extends ArmorItem {
     @Override
     public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
         tooltip.add(Text.translatable("item.xuforge.travelers_vest.tooltip").formatted(Formatting.YELLOW));
-        tooltip.add(Text.literal("装備時: 水中をスイスイ移動できる").formatted(Formatting.BLUE));
+        tooltip.add(Text.translatable("item.xuforge.travelers_vest.tooltip2").formatted(Formatting.AQUA));
         super.appendTooltip(stack, context, tooltip, type);
     }
 }

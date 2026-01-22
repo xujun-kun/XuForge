@@ -41,7 +41,7 @@ public class TravelersBoots extends ArmorItem {
     @Override
     public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
         tooltip.add(Text.translatable("item.xuforge.travelers_boots.tooltip").formatted(Formatting.YELLOW));
-        tooltip.add(Text.literal("装備時: 1ブロックの段差を自動で登る").formatted(Formatting.BLUE));
+        tooltip.add(Text.translatable("item.xuforge.travelers_boots.tooltip2").formatted(Formatting.AQUA));
         super.appendTooltip(stack, context, tooltip, type);
     }
 }
