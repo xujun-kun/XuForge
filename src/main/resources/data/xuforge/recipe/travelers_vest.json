@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "#W#",
+    "#G#",
+    "#W#"
+  ],
+  "key": {
+    "#": { "item": "minecraft:leather" },
+    "W": { "item": "minecraft:white_wool" },
+    "G": { "item": "minecraft:golden_chestplate" }
+  },
+  "result": {
+    "id": "xuforge:travelers_vest",
+    "count": 1
+  }
+}

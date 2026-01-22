@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "# #",
+    " G ",
+    "Z Z"
+  ],
+  "key": {
+    "#": { "item": "minecraft:leather" },
+    "G": { "item": "minecraft:golden_helmet" },
+    "Z": { "item": "minecraft:glass" }
+  },
+  "result": {
+    "id": "xuforge:travelers_goggles",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "gEg",
+    "cGc",
+    "cFc"
+  ],
+  "key": {
+    "g": { "item": "minecraft:gold_ingot" },
+    "E": { "item": "minecraft:ender_pearl" },
+    "c": { "item": "minecraft:copper_ingot" },
+    "G": { "item": "minecraft:golden_leggings" },
+    "F": { "item": "minecraft:feather" }
+  },
+  "result": {
+    "id": "xuforge:travelers_wings",
+    "count": 1
+  }
+}

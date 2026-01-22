@@ -22,6 +22,6 @@ public class ModItem {
 
 
     public static void registerModItems() {
-        XuForge.LOGGER.info("Registering Mod Items for " + XuForge.MOD_ID);
+        XuForge.LOGGER.info("Registering Mod Items");
     }
 }
