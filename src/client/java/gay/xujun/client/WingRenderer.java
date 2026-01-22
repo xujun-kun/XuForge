@@ -10,7 +10,8 @@ public class WingRenderer extends AzArmorRenderer {
 
     public WingRenderer() {
         super(AzArmorRendererConfig.builder(GEO, TEX)
-                .setAnimatorProvider(stack -> new WingAnimator())
+                // 4. () -> に戻します
+                .setAnimatorProvider(() -> new WingAnimator())
                 .build());
     }
 }

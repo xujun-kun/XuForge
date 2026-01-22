@@ -1,28 +1,28 @@
 package gay.xujun.client;
 
-import mod.azure.azurelib.common.animation.impl.AzItemAnimator; // impl の中にある可能性が高いです
+import mod.azure.azurelib.common.animation.AzAnimator;
 import mod.azure.azurelib.common.animation.controller.AzAnimationController;
 import mod.azure.azurelib.common.animation.controller.AzAnimationControllerContainer;
-import mod.azure.azurelib.common.animation.play_behavior.AzPlayBehaviors; // もしくは play_behavior
+import mod.azure.azurelib.common.animation.play_behavior.AzPlayBehaviors;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 import java.util.UUID;
 
-public class WingAnimator extends AzItemAnimator<UUID, ItemStack> {
+// 1. クラスは 2個 必要
+public class WingAnimator extends AzAnimator<UUID, ItemStack> {
     private static final Identifier ANIMATIONS = Identifier.of("xuforge", "animations/WingModel.animation.json");
 
     @Override
-    public void registerControllers(AzAnimationControllerContainer<UUID, ItemStack> container) {
+    // 2. コンテナは 1個 (ItemStack) だけ指定
+    public void registerControllers(AzAnimationControllerContainer<ItemStack> container) {
         container.add(
                 AzAnimationController.builder(this, "base_controller")
-                        .setAnimationHandler(instance -> {
-                            return AzPlayBehaviors.LOOP.createAzCommand("animation.WingModel.default");
-                        })
                         .build()
         );
     }
 
     @Override
+    // 3. 引数は ItemStack
     public Identifier getAnimationLocation(ItemStack animatable) {
         return ANIMATIONS;
     }
