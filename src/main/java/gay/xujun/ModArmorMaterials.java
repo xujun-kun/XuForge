@@ -23,7 +23,6 @@ public class ModArmorMaterials {
     ), 15, 0.0F, 0.0F, () -> Ingredient.EMPTY);
 
     private static RegistryEntry<ArmorMaterial> register(String id, Map<ArmorItem.Type, Integer> defensePoints, int enchantability, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredient) {
-        // 第2引数のサフィックス("")と、染色設定(false)を明示的に追加します
         List<ArmorMaterial.Layer> layers = List.of(
                 new ArmorMaterial.Layer(Identifier.of("xuforge", id), "", false)
         );

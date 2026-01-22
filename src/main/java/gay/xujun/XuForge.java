@@ -10,14 +10,9 @@ public class XuForge implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        // 1. まず最初にマテリアルを強制的に読み込む
-        // これを ModItem.registerModItems() よりも「先」に書くのが重要です
-        LOGGER.info("Loading Armor Materials...");
-        var material = ModArmorMaterials.TRAVELER.value();
 
-        // 2. その後にアイテムを登録する
         ModItem.registerModItems();
 
-        LOGGER.info("XuForge Initialized!");
+        LOGGER.info("大家好b（￣▽￣）d");
     }
 }
