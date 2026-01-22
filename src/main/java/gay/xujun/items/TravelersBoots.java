@@ -30,8 +30,8 @@ public class TravelersBoots extends ArmorItem {
 
             if (stepHeight != null) {
                 if (boots == stack) {
-                    stepHeight.setBaseValue(4.0);
-                } else if (stepHeight.getBaseValue() == 4.0) {
+                    stepHeight.setBaseValue(1.0);
+                } else if (stepHeight.getBaseValue() == 1.0) {
                     stepHeight.setBaseValue(0.6);
                 }
             }
