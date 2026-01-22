@@ -1,14 +1,26 @@
 {
   "schemaVersion": 1,
   "id": "xuforge",
-  "version": "${version}",
+  "version": "v1.9+mc1.21.1",
   "name": "XuForge",
-  "description": "ちんこ1の旅人装備を最新版で使いたいという気持ち",
+  "description": "想在最新版本使用TiC1旅人套装的想法",
   "authors": ["XuJun"],
-  "contact": {},
+  "contact": {
+    "homepage": "https://dev.xujun.gay",
+    "sources": "https://github.com/xujun-kun/XuForge",
+    "issues": "https://github.com/xujun-kun/XuForge/issues"
+  },
   "license": "MIT",
   "icon": "assets/xuforge/icon.png",
   "environment": "*",
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/g43yHbb4gC",
+        "PlanetMinecraft": "https://www.planetminecraft.com/mod/journeytool/"
+      }
+    }
+  },
   "entrypoints": {
     "client": [
       "gay.xujun.client.XuForgeClient"

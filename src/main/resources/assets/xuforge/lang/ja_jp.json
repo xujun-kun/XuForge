@@ -1,4 +1,6 @@
 {
+  "itemGroup.xuforge.items": "XuForge: XuForge",
+
   "item.xuforge.travelers_boots": "旅人のブーツ",
   "item.xuforge.travelers_boots.tooltip": "段差がなめらかになる",
   "item.xuforge.travelers_boots.tooltip2": "装備時: 1ブロックの段差を自動で登る",

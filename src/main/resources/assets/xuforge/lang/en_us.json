@@ -1,4 +1,6 @@
 {
+  "itemGroup.xuforge.items": "XuForge: XuForge",
+
   "item.xuforge.travelers_boots": "Traveler's Boots",
   "item.xuforge.travelers_boots.tooltip": "Makes steps feel smooth",
   "item.xuforge.travelers_boots.tooltip2": "Equipped: Automatically step up 1-block heights",

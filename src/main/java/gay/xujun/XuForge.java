@@ -12,6 +12,7 @@ public class XuForge implements ModInitializer {
     public void onInitialize() {
 
         ModItem.registerModItems();
+        XuForgeTab.registerItemGroups();
 
         LOGGER.info("大家好b（￣▽￣）d");
     }
