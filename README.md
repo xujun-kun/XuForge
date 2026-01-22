@@ -22,7 +22,7 @@ This mod adds the Traveler's Armor Set, designed for explorers who need utility 
 Current Version: v1.9+mc1.21.1
 
     🔼 Armor Items and Textures (In Progress)
-    ❎ Item recipe and crafting (In Progress)
+    ✅ Item recipe and crafting
     ✅ Custom Armor Materials
     ✅ Multi-language Support
     🔼 Special Abilities Implementation (In Progress)
