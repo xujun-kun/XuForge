@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "xuforge:travel"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "xuforge:travel"
+      }
+    ]
+  }
+}

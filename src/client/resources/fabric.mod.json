@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "xuforge",
+  "version": "${version}",
+  "name": "XuForge",
+  "description": "ちんこ1の旅人装備を最新版で使いたいという気持ち",
+  "authors": ["XuJun"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/xuforge/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "gay.xujun.client.XuForgeClient"
+    ],
+    "main": [
+      "gay.xujun.XuForge"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

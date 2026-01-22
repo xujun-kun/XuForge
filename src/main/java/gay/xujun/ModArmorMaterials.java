@@ -23,13 +23,14 @@ public class ModArmorMaterials {
     ), 15, 0.0F, 0.0F, () -> Ingredient.EMPTY);
 
     private static RegistryEntry<ArmorMaterial> register(String id, Map<ArmorItem.Type, Integer> defensePoints, int enchantability, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredient) {
-
+        // 第2引数のサフィックス("")と、染色設定(false)を明示的に追加します
         List<ArmorMaterial.Layer> layers = List.of(
-                new ArmorMaterial.Layer(Identifier.of("xuforge", id))
+                new ArmorMaterial.Layer(Identifier.of("xuforge", id), "", false)
         );
 
         ArmorMaterial material = new ArmorMaterial(defensePoints, enchantability, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, repairIngredient, layers, toughness, knockbackResistance);
 
+        // registerReference を使用します
         return Registry.registerReference(Registries.ARMOR_MATERIAL, Identifier.of("xuforge", id), material);
     }
 }
